@@ -1,15 +1,17 @@
-// function mapSemThis(arr){
-//     return arr.map(function (value){
-//         return value * 2;
-//     });
+// function filtraPares(arr) {
+//     return arr.filter(callbackFuncao);
 // }
 
-// function mapSemThis(arr){
-//     return arr.map((value) => value * 2);
+// function callbackFuncao(item) {
+//     console.log(item % 2 === 0);
+//     return item % 2 === 0;
 // }
 
-const mapSemThis = (arr) => (arr.map((value) => value * 2))
+const filtraPares = (arr) => arr.filter((item) => {
+    console.log(item % 2 === 0);
+    return item % 2 === 0;
+}) 
 
 const nums = [1, 2, 3, 4, 5]
 
-console.log(mapSemThis(nums))
+console.log(filtraPares(nums))
