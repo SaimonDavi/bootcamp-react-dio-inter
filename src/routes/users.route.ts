@@ -6,7 +6,7 @@
 // post /users/:uuid 
 // delete /users/:uuid 
 
-import { Router, Response, Request, NextFunction } from "express";
+import { NextFunction, Request, Response, Router } from "express";
 import { StatusCodes } from 'http-status-codes';
 
 const usersRoute = Router();
