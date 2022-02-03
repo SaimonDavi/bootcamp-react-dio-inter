@@ -1,6 +1,6 @@
 import { Pool } from 'pg';
 
-const connectionString = '';
+const connectionString = process.env.BASE_URL;
 
 const db = new Pool({ connectionString });
 
