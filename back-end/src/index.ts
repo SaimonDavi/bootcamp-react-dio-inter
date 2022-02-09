@@ -13,6 +13,6 @@ app.use(statusRoute);
 
 app.use(errorHandler);
 
-app.listen(3000, () => {
-    console.log("Aplicação executando na porta 3000");
+app.listen(3001, () => {
+    console.log("Aplicação executando na porta 3001");
 });
